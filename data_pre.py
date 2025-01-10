@@ -11,7 +11,7 @@ pad_width2 = np.floor(patchsize2 / 2)
 pad_width2 = np.int32(pad_width2)
 
 
-def data_load(name="Trento"):
+def data_load(name="Houston"):
     if name == "Houston":
         DataPath1 = './dataset/Houston2013/Houston_HS.mat'
         DataPath2 = './dataset/Houston2013/Houston_LiDAR.mat'
